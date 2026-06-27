@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+db/
+*.dbc
+dbc_index.json
+*.log
+*.candump
+.env
+.venv/
+venv/
+
+# Local-only: references the owner's private ~/wiki
+CLAUDE.md
