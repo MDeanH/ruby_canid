@@ -10,6 +10,10 @@ This is personal reverse-engineering tooling, built for my own projects (an MX-5
 dash and a Segway-Ninebot ServeBot S1 chassis). It runs entirely offline and is
 designed to stay memory-safe on a 1 GB Raspberry Pi.
 
+See **[LESSONS.md](LESSONS.md)** for write-ups of what reverse-engineering these
+two buses actually taught me (verified-on-hardware vs. spec, finding signals by
+diffing, bus-limit gotchas, and a listen-only-first workflow).
+
 ## What it does
 
 - **DBC-backed decode** — indexes a directory of `*.dbc` files (e.g. comma.ai
